@@ -1,0 +1,179 @@
+/*----------------------------------------------------------------------------------
+
+	Template Name: Portfolio Personal Website
+	Template URL: http://www.abm.com
+	Description: Personal Website
+	Author: Md. Majidul Islam
+	Author URL: http://www.ab-majid.info
+	License: GNU General Public 
+	Version: 2020.0.1
+	Tags: ;
+-----------------------------------------------------------------------------------
+
+	1. Typography  10-50
+	2. Header Area  51-150
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+-----------------------------------------------------------------------------------*/
+
+
+/************** 1. Typography ************************/
+
+h1,
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+a, 
+p,
+ul{
+	text-decoration: none;
+}
+h2{
+	color: #bea44d;
+}
+p{
+	color: #848789;
+	line-height: 30px;
+}
+
+body{
+	margin:0; 
+	padding: 0;
+}
+/************ Header Area ************/
+.head{
+	background-color: #f9f8f3;
+}
+.head p{
+	font-size: 11px;
+}
+/************** 2. Header Area ************************/
+.header p{
+	font-size: 35px;
+	color: #bea44d;
+}
+.header ul li a:hover {
+	color: #bea44d;
+  }
+.carousel-caption{
+    position: absolute;
+    right: 15%;
+    bottom: 120px;
+    left: 9%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fefefe;
+    text-align: center;
+}
+.carousel-caption h1{
+	font-size: 60px;
+}
+.achivement a{
+	font-size: 40px;
+    color: #fefefe;
+}
+.achivement h6{
+	font-size: 30px;
+	margin-bottom: 0;
+}
+.achivement p{
+	font-size: 15px;
+    color: #fefefe;
+	margin-top: 0;
+	padding-top: 0;
+}
+.carousel-caption .span{
+	background-color: #f9f8f3;
+	color: #bea44d;
+}
+.carousel-indicators li{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+}
+
+/* Ideas Section */
+.ideas a{
+	font-size: 25px;
+	height: 15px;
+	width: 15px;
+	padding: 5px 12px;
+	border: 1px solid #bea44d;
+	border-radius: 50%;
+	color: #bea44d;
+	background-color: #f9f8f3;
+}
+.ideas h5{
+	color: #bea44d;
+}
+
+/* Featured Work */
+.carousel-control-prev span{
+	color: #bea44d;
+	font-size: 30px;
+	padding: 0 15px;
+	border: 2px solid #bea44d;
+	border-radius: 5px;
+	margin-left: -300px;
+}
+.carousel-control-next span{
+	color: #bea44d;
+	font-size: 30px;
+	padding: 0 15px;
+	border: 2px solid #bea44d;
+	border-radius: 5px;
+	margin-right: -300px;
+}
+
+/* Latest Post */
+.post h5,
+.post a{
+	color: #bea44d;
+}
+
+/* Get in Touch */
+.touch .content{
+	box-shadow: 0px 0px 10px #bea44d;
+}
+.touch .content input,
+.touch .content textarea{
+	background-color: #fffaef;
+}
+.btn-primary{
+	background-color: #bea44d;
+	border: 1px solid #bea44d;
+}
+.btn-primary:hover{
+	background-color: #bea44d;
+	border: 1px solid #bea44d;
+	font-weight: 500;
+}
+
+/* Contact Us */
+.contact{
+	background-color: #fffaef;
+}
+.contact span{
+	padding: 0 5.5px;
+	border-radius: 50%;
+	background-color: #bea44d;
+	color: white;
+}
+.contact a{
+	color: #bea44d;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+/* Footer */
+.footer{
+	background-color: #bea44d;
+	font-size: 14px;
+}
